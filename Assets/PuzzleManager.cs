@@ -8,7 +8,7 @@ public class PuzzleManager : MonoBehaviour
 {
     [SerializeField] private List<ObjectDrag> _puzzlePieces = new List<ObjectDrag>();
     [SerializeField] private int _piecesToVictory;
-    [SerializeField] private SceneAsset _scene;
+    [SerializeField] private string _scene;
     [SerializeField] private GameObject _victoryScreen;
     [SerializeField] private AudioSource _audioSource;
     private int _correctPiecesCount = 0;
@@ -52,6 +52,6 @@ public class PuzzleManager : MonoBehaviour
         _audioSource.Play();
         yield return new WaitUntil(() => Input.touchCount == 0);
         yield return new WaitUntil(() => Input.touchCount > 0);
-        SceneManager.LoadSceneAsync(_scene.name);
+        SceneManager.LoadSceneAsync(_scene);
     }
 }

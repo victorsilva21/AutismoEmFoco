@@ -2173,7 +2173,7 @@ MonoBehaviour:
   - {fileID: 874078846}
   - {fileID: 496245953}
   _piecesToVictory: 2
-  _scene: {fileID: 102900000, guid: c88437228a98f5d439390a567fca6a3c, type: 3}
+  _scene: World 3
   _victoryScreen: {fileID: 1588832867}
   _audioSource: {fileID: 1024016907}
 --- !u!4 &1198224264

@@ -9,7 +9,7 @@ public class NpcDialogue : MonoBehaviour
 {
     [SerializeField] private List<string> _strings = new List<string>();
     [SerializeField] private GameObject _dialogueHud, _expression1, _expression2, _floatingJoy;
-    [SerializeField] private SceneAsset _sceneToCall;
+    [SerializeField] private string _sceneToCall;
     [SerializeField] private TMP_Text _text;
     [SerializeField] private bool _destroySelf = false;
     // Start is called before the first frame update
@@ -61,8 +61,8 @@ public class NpcDialogue : MonoBehaviour
 
         Time.timeScale = 1;
 
-        if (_sceneToCall != null)
-            SceneManager.LoadSceneAsync(_sceneToCall.name);
+        if (_sceneToCall != "")
+            SceneManager.LoadSceneAsync(_sceneToCall);
 
         if (_destroySelf == true)
             Destroy(this.gameObject);

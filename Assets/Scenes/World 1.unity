@@ -375,7 +375,7 @@ MonoBehaviour:
   _expression1: {fileID: 649334709}
   _expression2: {fileID: 966700373}
   _floatingJoy: {fileID: 641903420}
-  _sceneToCall: {fileID: 102900000, guid: fadef34d379daf1408e888887b7ceb41, type: 3}
+  _sceneToCall: Quiz 1
   _text: {fileID: 1849756069}
   _destroySelf: 0
 --- !u!1 &202645962
@@ -578,7 +578,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
