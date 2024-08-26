@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu 1.unity
     guid: c5705244179e6a14ebaa41df06519cbf
+  - enabled: 1
+    path: Assets/Scenes/World 4.unity
+    guid: 2a1c68c3bea042e4fb7f3ec1fd479819
+  - enabled: 1
+    path: Assets/Scenes/Quiz 3.unity
+    guid: e6bda6c3caca61f4d929ed0dab813106
+  - enabled: 1
+    path: Assets/Scenes/World 5.unity
+    guid: bed2cf453220e4b43af620ff37b7ba3b
   m_configObjects: {}
